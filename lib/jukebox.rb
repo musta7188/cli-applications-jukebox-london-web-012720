@@ -53,7 +53,7 @@ if user_answer === 'help'
 elsif user_answer === 'list'
   list(songs)
 elsif user_answer === 'play'
-puts  play(songs)
+   play(songs)
 elsif user_answer === 'exit'
   exit_jukebox
 
