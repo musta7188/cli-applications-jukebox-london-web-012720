@@ -47,11 +47,13 @@ end
 def run(songs)
   puts "Please enter a command:"
   user_answer = gets.strip
-help
-if user_answer === 'list'
+
+if user_answer === 'help'
+  help
+elsif user_answer === 'list'
   list(songs)
 elsif user_answer === 'play'
-  play(songs)
+  play(songs[user_answer.to_i)
 elsif user_answer === 'exit'
   exit_jukebox
   #binding.pry
