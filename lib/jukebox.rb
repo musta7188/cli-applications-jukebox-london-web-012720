@@ -61,5 +61,5 @@ elsif user_answer === 'exit'
   exit_jukebox
 
 end
-
+ binding.pry
 end
