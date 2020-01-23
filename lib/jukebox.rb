@@ -47,7 +47,7 @@ end
 def run(songs)
   puts "Please enter a command:"
   user_answer = gets.strip
-  binding.pry
+  #binding.pry
 if user_answer === 'help'
   help
 elsif user_answer === 'list'
