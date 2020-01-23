@@ -55,10 +55,10 @@ elsif user_answer === 'list'
 elsif user_answer === 'play'
   play = play(user_answer)
   puts "playing #{play}"
-binding.pry
+
 elsif user_answer === 'exit'
   exit_jukebox
-  #
+  binding.pry
 
 end
 end
