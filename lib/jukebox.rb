@@ -55,7 +55,6 @@ elsif user_answer === 'list'
 elsif user_answer === 'play'
 play(songs)
 
-
 elsif user_answer === 'exit'
   exit_jukebox
 
