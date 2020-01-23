@@ -50,10 +50,13 @@ def run(songs)
 
 if user_answer === 'help'
   help
+end
 if user_answer === 'list'
   list(songs)
+end
 if user_answer === 'play'
    play(user_answer)
+ end
 elsif user_answer === 'exit'
   exit_jukebox
 
