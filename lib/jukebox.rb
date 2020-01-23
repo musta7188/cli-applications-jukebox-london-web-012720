@@ -50,9 +50,9 @@ def run(songs)
 
 if user_answer === 'help'
   help
-elsif user_answer === 'list'
+if user_answer === 'list'
   list(songs)
-elsif user_answer === 'play'
+if user_answer === 'play'
    play(user_answer)
 elsif user_answer === 'exit'
   exit_jukebox
