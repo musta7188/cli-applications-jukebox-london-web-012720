@@ -47,14 +47,7 @@ end
 def run(songs)
   puts "Please enter a command:"
   user_answer = gets.strip
-  while user_answer != 'exit'
-    break if user_answer === 'exit'
-    case user_answer
-    when 'help'
-      help
 
-    end
-  end
   binding.pry
 
 
