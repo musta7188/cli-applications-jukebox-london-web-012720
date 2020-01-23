@@ -59,5 +59,5 @@ elsif user_answer === 'exit'
 
 end
 
-
+play(songs)
 end
