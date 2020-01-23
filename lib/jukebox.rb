@@ -34,7 +34,7 @@ puts message
   if user_response.to_i < songs.length && user_response.to_i >= 1
 puts "Playing #{ songs[user_response.to_i - 1]}"
 elsif songs.include?( user_response )
-  puts "Playing #{songs.find{|song| song === user_response}}" 
+  puts "Playing #{songs.find{|song| song === user_response}}"
 else
     puts "Invalid input, please try again"
   end
@@ -53,7 +53,7 @@ if user_answer === 'help'
 elsif user_answer === 'list'
   list(songs)
 elsif user_answer === 'play'
-play(songs)
+ play(songs)
 
 elsif user_answer === 'exit'
   exit_jukebox
