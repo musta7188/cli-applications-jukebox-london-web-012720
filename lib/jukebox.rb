@@ -56,7 +56,7 @@ elsif user_answer === 'play'
   play(list(songs))
 elsif user_answer === 'exit'
   exit_jukebox
-  binding.pry
+  #binding.pry
 
 end
 end
