@@ -53,8 +53,8 @@ if user_answer === 'help'
 elsif user_answer === 'list'
   list(songs)
 elsif user_answer === 'play'
-  play = play(user_answer)
-  puts "playing #{play}"
+play(songs)
+
 
 elsif user_answer === 'exit'
   exit_jukebox
