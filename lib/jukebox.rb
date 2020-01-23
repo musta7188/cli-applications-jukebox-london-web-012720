@@ -48,6 +48,7 @@ def run(songs)
   puts "Please enter a command:"
   user_answer = gets.strip
   #binding.pry
+  while user_answer != 'exit'
 if user_answer === 'help'
   help
 elsif user_answer === 'list'
@@ -55,6 +56,6 @@ elsif user_answer === 'list'
 elsif user_answer === 'play'
   play = play(user_answer)
   puts "playing #{play}"
-
+end
 end
 end
