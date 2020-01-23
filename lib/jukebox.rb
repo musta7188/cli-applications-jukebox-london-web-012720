@@ -53,7 +53,7 @@ if user_answer === 'help'
 elsif user_answer === 'list'
   list(songs)
 elsif user_answer === 'play'
-  play(list(songs))
+  play(songs[user_answer.to_i])
 elsif user_answer === 'exit'
   exit_jukebox
   #binding.pry
