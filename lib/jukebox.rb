@@ -56,7 +56,6 @@ if user_answer === 'list'
 end
 if user_answer === 'play'
    play(user_answer)
- end
 elsif user_answer === 'exit'
   exit_jukebox
 
