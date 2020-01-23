@@ -50,16 +50,12 @@ def run(songs)
 
 if user_answer === 'help'
   help
-end
-if user_answer === 'list'
+elsif user_answer === 'list'
   list(songs)
-end
-if user_answer === 'play'
-   play(user_answer)
-
+elsif user_answer === 'play'
+  play(songs)
 elsif user_answer === 'exit'
   exit_jukebox
 
 end
- binding.pry
 end
