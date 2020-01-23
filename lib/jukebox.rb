@@ -58,7 +58,7 @@ elsif user_answer === 'play'
 
 elsif user_answer === 'exit'
   exit_jukebox
-  binding.pry
+
 
 end
 end
