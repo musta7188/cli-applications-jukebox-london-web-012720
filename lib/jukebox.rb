@@ -32,7 +32,7 @@ puts message
 
 #binding.pry
   if user_response.to_i < songs.length && user_response.to_i >= 1
-puts songs[user_response.to_i - 1]
+puts "Playing#{ songs[user_response.to_i - 1]}"
 elsif songs.include?( user_response )
   puts songs.find{|song| song === user_response}
 else
